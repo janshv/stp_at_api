@@ -32,6 +32,8 @@ refresh_payload = {
     "refreshToken": login_response_data["token"]["refreshToken"]
 }
 
+print("Ref PL::", refresh_payload)
+
 # Выполняем запрос на обновление токена
 refresh_response = httpx.post("http://localhost:8000/api/v1/authentication/refresh", json=refresh_payload)
 refresh_response_data = refresh_response.json()
