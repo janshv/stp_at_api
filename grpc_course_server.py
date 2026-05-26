@@ -10,7 +10,10 @@ class CourseServiceServicer(course_service_pb2_grpc.CourseServiceServicer):
 
     def GetCourse(self, request, context):
         return course_service_pb2.GetCourseResponse(
-            course_id=f"course_id: {request.course_id}  \ntitle: Автотесты API \ndescription: Будем изучать написание API автотестов")
+            course_id=request.course_id,
+            title="Автотесты API",
+            description="Будем изучать написание API автотестов"
+        )
 
 
 def serve():
