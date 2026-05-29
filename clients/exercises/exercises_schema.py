@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, EmailStr, ConfigDict
-
+#
 class ExerciseSchema(BaseModel):
     """
     Описание структуры задания.
@@ -13,7 +13,7 @@ class ExerciseSchema(BaseModel):
     min_score: int = Field(alias="minScore")
     order_index: int = Field(alias="orderIndex")
     description: str
-    estimated_tme: str = Field(alias="estimatedTime")
+    estimated_time: str = Field(alias="estimatedTime")
 
 
 class GetExerciseResponseSchema(BaseModel):
@@ -48,7 +48,7 @@ class CreateExerciseRequestSchema(BaseModel):
     min_score: int = Field(alias="minScore")
     order_index: int = Field(alias="orderIndex")
     description: str
-    estimated_tme: str = Field(alias="estimatedTime")
+    estimated_time: str = Field(alias="estimatedTime")
 
 
 class UpdateExerciseRequestSchema(BaseModel):
@@ -60,9 +60,9 @@ class UpdateExerciseRequestSchema(BaseModel):
     title: str | None
     max_score: int | None = Field(alias="maxScore")
     min_score: int | None = Field(alias="minScore")
-    orderIndex: int | None = Field(alias="orderIndex")
+    order_index: int | None = Field(alias="orderIndex")
     description: str | None
-    estimatedTime: str | None = Field(alias="estimatedTime")
+    estimated_time: str | None = Field(alias="estimatedTime")
 
 
 class CreateExerciseResponseSchema(BaseModel):
@@ -76,5 +76,3 @@ class UpdateExerciseResponseSchema(BaseModel):
     Описание структуры ответа создания задания.
     """
     exercise: ExerciseSchema
-
-
