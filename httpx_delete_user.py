@@ -1,14 +1,14 @@
 import httpx
 
-from tools.fakers import get_random_email, get_random_firstname, get_random_lastname
+from tools.fakers import fake
 
 # Создаем пользователя
 create_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "string",
-    "lastName": get_random_lastname(),
-    "firstName": get_random_firstname(),
-    "middleName": get_random_firstname()
+    "lastName": fake.last_name(),
+    "firstName": fake.first_name(),
+    "middleName": fake.first_name()
 }
 create_user_response = httpx.post("http://localhost:8000/api/v1/users", json=create_user_payload)
 create_user_response_data = create_user_response.json()

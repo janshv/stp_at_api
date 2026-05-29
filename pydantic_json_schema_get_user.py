@@ -3,16 +3,16 @@ from clients.users.private_users_client import get_private_users_client
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema, GetUserResponseSchema
 from tools.assertions.schema import validate_json_schema
-from tools.fakers import get_random_email, get_random_lastname, get_random_firstname
+from tools.fakers import fake
 
 public_users_client = get_public_users_client()
 
 create_user_request = CreateUserRequestSchema(
-    email=get_random_email(),
+    email=fake.email(),
     password="string",
-    lastName=get_random_lastname(),
-    firstName=get_random_firstname(),
-    middleName=get_random_firstname()
+    lastName=fake.last_name(),
+    firstName=fake.first_name(),
+    middleName=fake.first_name()
 )
 
 create_user_response = public_users_client.create_user(create_user_request)
