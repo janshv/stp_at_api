@@ -1,13 +1,15 @@
-from clients.courses.courses_client import get_courses_client#, CreateCourseRequestDict
+from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
+from clients.users.private_users_client import get_private_users_client
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
 from tools.fakers import get_random_email, get_random_lastname, get_random_firstname
 
 public_users_client = get_public_users_client()
+
 
 # Создаем пользователя
 create_user_request = CreateUserRequestSchema(
@@ -24,6 +26,12 @@ authentication_user = AuthenticationUserSchema(
     email=create_user_request.email,
     password=create_user_request.password
 )
+
+private_users_client = get_private_users_client(authentication_user)
+
+get_user_response = private_users_client.get_user(create_user_response.user.id)
+print('Get user data:', get_user_response)
+
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
@@ -43,8 +51,8 @@ create_course_request = CreateCourseRequestSchema(
     minScore=10,
     description="Python API course",
     estimatedTime="2 weeks",
-    previewFileId=create_file_response.file,
-    createdByUserId=create_user_response.user
+    previewFileId=create_file_response.file.id,
+    createdByUserId=create_user_response.user.id
 )
 
 create_course_response = courses_client.create_course(create_course_request)

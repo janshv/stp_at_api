@@ -1,12 +1,12 @@
-from clients.courses.courses_client import get_courses_client #, CreateCourseRequestDict
+from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
-from clients.exercises.exercises_client import get_exercises_client #, CreateExerciseRequestDict
+from clients.exercises.exercises_client import get_exercises_client
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema
-from clients.files.files_client import get_files_client #, CreateFileRequestDict
+from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import get_private_users_client
-from clients.users.public_users_client import get_public_users_client #, CreateUserRequestDict
+from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
 from tools.fakers import get_random_email, get_random_firstname, get_random_lastname
 
@@ -49,8 +49,8 @@ create_course_request = CreateCourseRequestSchema(
     minScore=10,
     description="Python API-XZ course",
     estimatedTime="2 weeks",
-    previewFileId=create_file_response.file,
-    createdByUserId=create_user_response.user
+    previewFileId=create_file_response.file.id,
+    createdByUserId=create_user_response.user.id
 )
 
 create_course_response = courses_client.create_course(create_course_request)
@@ -64,7 +64,7 @@ create_exercise_request = CreateExerciseRequestSchema(
     description="Python API-XZ course",
     estimatedTime="3 weeks",
     orderIndex=2,
-    courseId=create_course_response['course']['id']
+    courseId=create_course_response.course.id
 )
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
 print('Create exercise data:', create_exercise_response)
