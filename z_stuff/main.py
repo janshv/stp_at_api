@@ -1,7 +1,7 @@
 from httpx import Client, URL, Response, QueryParams
 
 from clients.users.public_users_client import PublicUsersClient
-from tools.fakers import fake, get_random_lastname, get_random_firstname
+from tools.fakers import fake
 
 print('Xola!')
 
