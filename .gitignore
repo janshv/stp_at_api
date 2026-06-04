@@ -1,0 +1,4 @@
+.gitignore
+
+./allure-results
+./z_stuff
