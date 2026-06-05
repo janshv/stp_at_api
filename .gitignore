@@ -2,3 +2,4 @@
 
 ./allure-results
 ./z_stuff
+.env
