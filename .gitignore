@@ -10,4 +10,3 @@ __pycache__
 ./allure-report
 ./allure-results
 ./z_stuff
-.env
