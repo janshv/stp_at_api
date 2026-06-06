@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjE4LjMwODQxNCIsInVzZXJfaWQiOiIyNmYwODM3MC1mNjhjLTRiNmItOTYyNC1kMDdlYWUzZjBkZmIifQ.DaP5jr49OUY9TKSGXpmLgUoAs-5qQAopMl8IPzo0jt4' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Story drug always order board.","courseId":"e4c46acc-3c4e-4133-b260-2e2b04f17ea5","maxScore":89,"minScore":9,"orderIndex":89,"description":"Change hundred this director poor. Society form matter interesting idea participant.","estimatedTime":"9 weeks"}'

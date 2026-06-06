@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjE4LjU4MTc3MiIsInVzZXJfaWQiOiI5ODNjMzRmNy01Mjg2LTRjMDAtOWYwMS1iNDY2NjVjOWZlZmIifQ.asbjuD62rm2oOH_s98muTH4Iadbny4wOLi93hOPx7Lw' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Because prepare technology be various themselves group which.","maxScore":97,"minScore":7,"description":"Those letter more body. Party actually suggest might field leg huge.\nLook community plan tough sea. Owner degree whose.","estimatedTime":"4 weeks","previewFileId":"ad2e4711-fbaf-4a6e-83ad-3be9319d4d66","createdByUserId":"983c34f7-5286-4c00-9f01-b46665c9fefb"}'

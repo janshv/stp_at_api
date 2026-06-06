@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjE3LjM5ODc0MiIsInVzZXJfaWQiOiI0NDhkNTg0YS1iYzJmLTQwMTctODZiNC02Y2IyZjliMGI4NjcifQ.iik0fj8qoGEz7BWUGakeUm2zkKVtkGkLIYTWBG4Bu4s' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest participant management spring house citizen should.","maxScore":64,"minScore":18,"description":"Look point drop their. Establish data local society loss source draw. Water smile majority ball. Administration cover role line finish data choose.","estimatedTime":"7 weeks","previewFileId":"d8b544ce-639a-4453-aef2-6b493abbfcdf","createdByUserId":"448d584a-bc2f-4017-86b4-6cb2f9b0b867"}'

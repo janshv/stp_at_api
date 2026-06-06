@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=b842ec1d-dce5-4bc0-a8e4-e5b4843fd6a7
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=b842ec1d-dce5-4bc0-a8e4-e5b4843fd6a7
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 787d6383-2d41-42a8-bd45-0e0ac35e4ff2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Project someone power medical store amount watch.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to b842ec1d-dce5-4bc0-a8e4-e5b4843fd6a7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 100
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to College tell military bag dinner you information yeah. Sense base card about mention throw can.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks

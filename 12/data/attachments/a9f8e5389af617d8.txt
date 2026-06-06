@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjIwLjY3NjA2NyIsInVzZXJfaWQiOiI1MDA3MjY0YS0zOWRjLTQyZmMtYWE2Yy1kZGZkZTc0NjE5ZGUifQ.zaOOnUcJaosfggbkphqtajSmx9u_f50oH9Y5OGT25bo' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Newspaper bad require.","courseId":"96811fdd-29ab-4c8f-a474-4cf8ba8145e2","maxScore":77,"minScore":11,"orderIndex":50,"description":"Prevent they ability southern include message leave investment. Thus vote age give social machine. Best painting line lay scene reveal.\nEnjoy return man.","estimatedTime":"7 weeks"}'

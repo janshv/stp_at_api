@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjE4LjMwODQxNCIsInVzZXJfaWQiOiIyNmYwODM3MC1mNjhjLTRiNmItOTYyNC1kMDdlYWUzZjBkZmIifQ.DaP5jr49OUY9TKSGXpmLgUoAs-5qQAopMl8IPzo0jt4' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim president note story.","maxScore":92,"minScore":15,"description":"While happen describe without human start. Lose yes size better hand above body. Alone put government somebody. People standard thank least power prepare life.","estimatedTime":"3 weeks","previewFileId":"36b77af5-90b9-4dd0-8e5c-5b408bea7e7a","createdByUserId":"26f08370-f68c-4b6b-9624-d07eae3f0dfb"}'

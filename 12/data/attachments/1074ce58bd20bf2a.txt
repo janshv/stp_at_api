@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/exercises/6b765566-2b51-4e78-ae42-76bb5e2dbb7c
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/6b765566-2b51-4e78-ae42-76bb5e2dbb7c
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:79 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Three we ball interesting seven.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 45
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to According never another anyone treatment field treat. Although write million amount plant couple somebody.
+Spring establish box response box build sea. Talk bar safe year break boy off entire.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

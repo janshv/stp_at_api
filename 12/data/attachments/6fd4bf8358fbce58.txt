@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjE3LjEyNTQ2MiIsInVzZXJfaWQiOiJjODRjMWQ4Mi1hNTgxLTRjNDYtODBhZC1lODRmYzdjM2ZhOWEifQ.nTSzHSPDo7sNTgWZWuCjTFdDCN2D7rrnmWmrlFXo298' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later oil Congress budget enter want.","maxScore":54,"minScore":19,"description":"Positive tax west ago yourself sing front. Budget close study those.\nStep coach concern speak why common appear. Keep field address all. Want continue care many between employee somebody.","estimatedTime":"5 weeks","previewFileId":"52689308-9af2-44c5-bae2-83016f5c0e64","createdByUserId":"c84c1d82-a581-4c46-80ad-e84fc7c3fa9a"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/48b0ba9f-58eb-4a8c-b7af-0389dc587047' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjUyOjE3LjEyNTQ2MiIsInVzZXJfaWQiOiJjODRjMWQ4Mi1hNTgxLTRjNDYtODBhZC1lODRmYzdjM2ZhOWEifQ.nTSzHSPDo7sNTgWZWuCjTFdDCN2D7rrnmWmrlFXo298' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His edge some expect.","maxScore":73,"minScore":12,"description":"Country more above ever act begin. Free within establish thus control white above size.\nCatch question to nothing compare wish life. Learn significant you because.","estimatedTime":"4 weeks"}'
