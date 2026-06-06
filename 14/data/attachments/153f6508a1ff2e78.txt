@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQ2OjEyLjU5NDg4MyIsInVzZXJfaWQiOiIwMzU0NmM2YS04NGQ2LTRjNGYtYmRhNy04MDhmMDg5Zjg2YTEifQ.9e3HmIN_H5u-YEmEIDWBVbn-aA1230DRZMLPwkVgsuE' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve ok care moment happen that.","courseId":"be79d702-906d-471c-855f-43c14cf11653","maxScore":65,"minScore":8,"orderIndex":25,"description":"Price building position kitchen either produce. Traditional respond trial in method red child.","estimatedTime":"2 weeks"}'

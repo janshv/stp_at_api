@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQ2OjEyLjAxNTM3MyIsInVzZXJfaWQiOiJkNzg1YTkyZi02Zjg5LTQyMTMtYWRlOC1mNGE3MDQ1MTJiNDgifQ.4HYKSqdQzQp0ujLOEJWISkBCNe2BAU2Q2Ngp5yezr3g' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand mouth kind they.","maxScore":68,"minScore":28,"description":"Wear science young full industry pull as. Type place only wear college. Take agent one without important coach play another.","estimatedTime":"5 weeks","previewFileId":"9243f189-29c0-486f-af31-6ff2602c0c52","createdByUserId":"d785a92f-6f89-4213-ade8-f4a704512b48"}'

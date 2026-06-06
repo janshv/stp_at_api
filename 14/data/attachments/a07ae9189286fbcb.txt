@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQ2OjExLjM1MDQ5NyIsInVzZXJfaWQiOiIwNzkyMWNkMi0yOTIxLTQwNDQtODczOC1mZDJjODQzNjBiNWYifQ.MYiCqnl_HTR-nzG8Rovzm_yXll7C0yOpDBZON2Owbzw' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interest for free another born or allow.","maxScore":72,"minScore":17,"description":"Growth indeed ask add price statement report dog. Street task learn beat. Hand event majority several.","estimatedTime":"5 weeks","previewFileId":"2756cfbb-0201-4bce-bc49-3fca7a0e76ae","createdByUserId":"07921cd2-2921-4044-8738-fd2c84360b5f"}'

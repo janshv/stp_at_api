@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQyOjU5Ljk4MzMwNSIsInVzZXJfaWQiOiJkODU3ZjBhOS01YzM4LTQwOTItOGJlNS1kNDRlNDA4Y2RjZmIifQ.jrs7JGk8pKsdq6IOAGu0bINITnfqrlsJgKBhO4yhxpQ' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill impact size cell between pass.","maxScore":63,"minScore":9,"description":"Include including wall cultural personal want realize. Reach phone sense smile. Word listen support cut data money.\nAlmost phone weight finish mention series able. Training study way the black.","estimatedTime":"1 weeks","previewFileId":"524e3ffa-b4b3-4c28-86ca-a61690f8bc97","createdByUserId":"d857f0a9-5c38-4092-8be5-d44e408cdcfb"}'

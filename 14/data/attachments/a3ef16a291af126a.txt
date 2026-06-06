@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQ2OjEzLjUyNzY4NiIsInVzZXJfaWQiOiI4ZjJhYmE5OS1mNjIxLTRiNDktODBiNC04MDg1OWQyYWZlMjcifQ.dUzQQnEPmFBuCCs3ZxtZ-MC6bRIXeVa37Ey40D5-sXc' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career time help personal.","maxScore":91,"minScore":4,"description":"Thus event interest without. Lead offer deep candidate media their.\nThose imagine important important. Beat nor teach little real draw.","estimatedTime":"2 weeks","previewFileId":"73f5f82d-6148-44f5-bf22-7e5d3dad1b28","createdByUserId":"8f2aba99-f621-4b49-80b4-80859d2afe27"}'

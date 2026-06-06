@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQ2OjEzLjgwMTM0MyIsInVzZXJfaWQiOiI3Y2Q0ZTc1NC1mMDBkLTQzNWYtOTJjYy0yZTU3NTFlZWMwODYifQ.RoqvPRgS9lRwfycLTJ1g20F6XI0NyOw3qkQzGwFp9zU' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin goal nothing.","maxScore":90,"minScore":3,"description":"Can air for water. Direction room anything Mr network idea respond. Other ten what idea lay rate ten.\nRoom employee stand trouble voice far financial.\nTime current growth every. Arrive it within.","estimatedTime":"3 weeks","previewFileId":"334a4064-73ef-4c7e-946c-68551fcbac85","createdByUserId":"7cd4e754-f00d-435f-92cc-2e5751eec086"}'

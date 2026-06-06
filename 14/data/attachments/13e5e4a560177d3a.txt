@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQ2OjA5LjUyNTYzOSIsInVzZXJfaWQiOiJlMDJkNTFkYy0wNjY2LTQ3YzQtOWQ1OC1kNjQxYzM0MmFjNmMifQ.8wpoJp8GsMykGfgsNJLuFd9oY4ANE9AeWIaOnEHESFI' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok become attack effect hour with southern.","maxScore":98,"minScore":3,"description":"Room third trade. Campaign whose executive leg attorney also. Also soldier despite product range.","estimatedTime":"5 weeks","previewFileId":"8407ab6a-d8be-478f-a7db-9bec290e2220","createdByUserId":"e02d51dc-0666-47c4-9d58-d641c342ac6c"}'
