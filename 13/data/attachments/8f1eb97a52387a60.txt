@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8f882dc5-a92f-40d6-a948-813cbb1dfdb0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjM4OjI2LjQzNDMxNiIsInVzZXJfaWQiOiI3NjY5NjI1ZC0xNDYwLTQ1NzMtYjU2Ny0yZjkyYWNhODhjM2UifQ.hmXwxWY1kYUK3NEsaJOHzWk7bT3qwqgj_zIyeGj2S_M' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy look very rock most poor.","maxScore":57,"minScore":26,"description":"Information money president five. Water staff sound south reality national evidence.\nCase pattern mind matter.\nGreat talk appear game allow. Everyone film exactly.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjM4OjI5LjE4MDkwOCIsInVzZXJfaWQiOiJhN2ViMWMwNi0xNTNlLTQ1Y2ItOWI5NC02ZGUyODY4YzVjNTIifQ.q_rPC8JRKzGRR419-pOANjdaDdZxr17jVOJHOOCtHdA' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Store data partner recent never.","courseId":"cb7e959b-3256-47e7-9473-feb4b7424c2b","maxScore":99,"minScore":29,"orderIndex":24,"description":"Physical recent term price couple democratic. Support myself magazine institution rise thousand subject.","estimatedTime":"1 weeks"}'

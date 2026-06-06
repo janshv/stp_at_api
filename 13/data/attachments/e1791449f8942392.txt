@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjM4OjI3LjA3MzM4MCIsInVzZXJfaWQiOiJkMTY3Y2FjZi0zZjFiLTQ4MmQtYmFlYS0zYmRjMDE2NmIxNTUifQ.B_tq7FCExTPbAVDGjGyJ4o6ke0hgc5exkJSet8gH0mc' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black affect family range effect.","maxScore":80,"minScore":4,"description":"While want respond fact deep. Soon space boy country sure standard interesting.\nStart site discover nation least. Really car surface professor.","estimatedTime":"8 weeks","previewFileId":"02c43b27-8936-4a7d-a51e-10348e27f3fa","createdByUserId":"d167cacf-3f1b-482d-baea-3bdc0166b155"}'

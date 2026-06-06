@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjM4OjI3LjY1MjE4MiIsInVzZXJfaWQiOiJmNGQ2YWMyNy01ZDMxLTQyZjgtOWQzZC03ZTE2YzQyNzk4OTMifQ.arFWCbkrBw7rN0ui9BzZrYX1gBb6Y0KNB3fxoJyoAIU' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game to strategy make mind.","maxScore":78,"minScore":15,"description":"Language citizen enjoy space skin big one. Read science region boy entire sort less. Agreement west citizen.","estimatedTime":"1 weeks","previewFileId":"bedd5a13-f6fb-4b1e-8edd-9a2fb34444e9","createdByUserId":"f4d6ac27-5d31-42f8-9d3d-7e16c4279893"}'

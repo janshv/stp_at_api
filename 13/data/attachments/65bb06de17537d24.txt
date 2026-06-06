@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Black affect family range effect.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to While want respond fact deep. Soon space boy country sure standard interesting.
+Start site discover nation least. Really car surface professor.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 02c43b27-8936-4a7d-a51e-10348e27f3fa
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to d167cacf-3f1b-482d-baea-3bdc0166b155
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema
