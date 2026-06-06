@@ -72,10 +72,10 @@ jobs:
     steps:
       # 9. Создание папок / путей для отчёта
       - name: Check out repository
-      - uses: actions/checkout@v6
-      - with:
-      - ref: gh-pages
-      - path: gh-pages
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          path: gh-pages
 
       # 10. Загрузка файлов отчёта
       - name: Download Allure results
