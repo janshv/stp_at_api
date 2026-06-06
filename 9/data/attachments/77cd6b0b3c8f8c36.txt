@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjQ4LjU2MzE4MyIsInVzZXJfaWQiOiI4MTAyZWZkMS01YTI0LTQwOTYtYjJiOS1kYWQ2N2JiNzc2OWQifQ.RA_RCIr6mYr0aX4_4QZOFnmtDaRRFYodyLd6dYhMxvo' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Likely message agent feel century explain time expert.","maxScore":89,"minScore":14,"description":"Form less join large who third. Audience bar responsibility responsibility.\nPaper recent pay full call question no.\nMillion support forward. Resource lead themselves fight history.","estimatedTime":"7 weeks","previewFileId":"6bf6ef56-13d3-44fd-80b0-fdfa4f25d2c9","createdByUserId":"8102efd1-5a24-4096-b2b9-dad67bb7769d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjUwLjM2NTMyNyIsInVzZXJfaWQiOiI0MGViMTRkNi0wYmI2LTQ4MjctODYyMC1lMWIyOTQxN2MyNWYifQ.nQCM2yrkP8EiTo04VNxKzFpNzPemqSZ_dWYwLPg_gnc' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decide subject those drop.","maxScore":75,"minScore":6,"description":"Cup all manage room. Middle join Mrs likely authority state last explain. East recognize Mrs particularly quickly generation result.","estimatedTime":"6 weeks","previewFileId":"4d38ab79-bbe4-49f6-84f9-df9a0397460b","createdByUserId":"40eb14d6-0bb6-4827-8620-e1b29417c25f"}'

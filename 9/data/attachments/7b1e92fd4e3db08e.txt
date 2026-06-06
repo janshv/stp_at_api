@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to View we cold.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Action early past. Arrive cell occur order summer political. Necessary fire according position.
+More seek near indeed. Treat style court sound.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to ae6715f1-fb98-4f74-bfc6-998e60c6d489
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 7fe1ae77-d6f5-4594-adbb-af6af0977114
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

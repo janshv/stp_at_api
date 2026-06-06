@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjQ5Ljc4NDA5NiIsInVzZXJfaWQiOiI0M2M1MTAyYy05Y2FmLTQ1NzEtYjYyZC1iMjRiZjJjNjJjZDAifQ.5MlKEA9ofR4tgVQrzW2n_Kk9hRQ0VefIfHJ7f0sBZ14' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine draw ball table front.","courseId":"2c231381-a0dd-482c-a473-6e495c22cf6c","maxScore":52,"minScore":10,"orderIndex":35,"description":"Response how nation church. Under major our.\nArtist black career toward. Southern score during structure six part road.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=92a9ccc7-fdb3-4630-bfeb-f6cdfea5aa7b
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=92a9ccc7-fdb3-4630-bfeb-f6cdfea5aa7b
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 002324d0-bf28-4b9b-8338-2f0e5fb81341
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Society sport space animal nearly recently south.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 92a9ccc7-fdb3-4630-bfeb-f6cdfea5aa7b
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 12
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Too memory amount. Good former great day thing ok.
+Agree commercial head race. Candidate heart should east particularly local hit. Management within but anyone claim kitchen little.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjQ4LjU2MzE4MyIsInVzZXJfaWQiOiI4MTAyZWZkMS01YTI0LTQwOTYtYjJiOS1kYWQ2N2JiNzc2OWQifQ.RA_RCIr6mYr0aX4_4QZOFnmtDaRRFYodyLd6dYhMxvo' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society sport space animal nearly recently south.","courseId":"92a9ccc7-fdb3-4630-bfeb-f6cdfea5aa7b","maxScore":63,"minScore":7,"orderIndex":12,"description":"Too memory amount. Good former great day thing ok.\nAgree commercial head race. Candidate heart should east particularly local hit. Management within but anyone claim kitchen little.","estimatedTime":"7 weeks"}'

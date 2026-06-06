@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjQ3LjM5NTk1MSIsInVzZXJfaWQiOiI3ZmUxYWU3Ny1kNmY1LTQ1OTQtYWRiYi1hZjZhZjA5NzcxMTQifQ.MCdIXBE2FTj4bWhrHF4j1KPZNIKE6lsS1z3aqMIke7g' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View we cold.","maxScore":54,"minScore":29,"description":"Action early past. Arrive cell occur order summer political. Necessary fire according position.\nMore seek near indeed. Treat style court sound.","estimatedTime":"4 weeks","previewFileId":"ae6715f1-fb98-4f74-bfc6-998e60c6d489","createdByUserId":"7fe1ae77-d6f5-4594-adbb-af6af0977114"}'

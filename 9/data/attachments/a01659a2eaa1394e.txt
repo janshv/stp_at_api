@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/db211798-fe70-41f4-be30-fe971b9356b6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjQ5Ljc4NDA5NiIsInVzZXJfaWQiOiI0M2M1MTAyYy05Y2FmLTQ1NzEtYjYyZC1iMjRiZjJjNjJjZDAifQ.5MlKEA9ofR4tgVQrzW2n_Kk9hRQ0VefIfHJ7f0sBZ14' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task claim health wear shoulder.","maxScore":61,"minScore":6,"orderIndex":70,"description":"Southern best body very. Onto develop painting pass. Instead country agent above then stop.\nNewspaper plant college director. Practice lawyer later suddenly.","estimatedTime":"7 weeks"}'

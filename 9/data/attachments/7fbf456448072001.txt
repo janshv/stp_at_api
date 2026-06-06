@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE1OjQ5Ljc4NDA5NiIsInVzZXJfaWQiOiI0M2M1MTAyYy05Y2FmLTQ1NzEtYjYyZC1iMjRiZjJjNjJjZDAifQ.5MlKEA9ofR4tgVQrzW2n_Kk9hRQ0VefIfHJ7f0sBZ14' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment your city college though.","maxScore":66,"minScore":12,"description":"Argue parent full off represent could. World treat local indicate suggest.\nEspecially page term amount time policy popular return. Carry method without impact similar character view.","estimatedTime":"9 weeks","previewFileId":"255279ea-605f-484a-a80a-cd81666ba96c","createdByUserId":"43c5102c-9caf-4571-b62d-b24bf2c62cd0"}'
