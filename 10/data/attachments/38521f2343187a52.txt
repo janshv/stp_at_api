@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjU0LjYzODk2MyIsInVzZXJfaWQiOiJlODAzYmUyZC00MmFiLTQ0MmItODkwMy1lNjc2N2ZjNTA3NWMifQ.g3ZmGk3Z5Ln2l8jzPrmRAE4oB9I-XITF9k6JbQArOmY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build account all major film.","maxScore":56,"minScore":16,"description":"Clearly month parent voice leader hit news. Nearly apply bill interesting back. Why old mean respond crime vote go.\nSell everything price attack. Church study relate few since outside hear.","estimatedTime":"10 weeks","previewFileId":"24b653b5-d6c9-488a-86a7-eb38e8a147be","createdByUserId":"e803be2d-42ab-442b-8903-e6767fc5075c"}'

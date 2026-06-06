@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjUzLjYxNDI2NyIsInVzZXJfaWQiOiJjZWY2Mjc2Yi1kMDcxLTQ0MDItOTdiNS01NzZlYmRlYzNhNzQifQ.VhMhG9j8DyW6FVExL6kZTgvDWSbTl2P1qdhsxSliLB4' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Job second during stand without this.","maxScore":97,"minScore":13,"description":"Ready area until war. Activity modern upon simple. Sound should sure quality husband.","estimatedTime":"2 weeks","previewFileId":"5682ea7b-9965-49d9-90b8-4e21b6e386f4","createdByUserId":"cef6276b-d071-4402-97b5-576ebdec3a74"}'

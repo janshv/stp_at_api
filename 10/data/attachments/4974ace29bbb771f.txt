@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjUxLjAxMDYwMyIsInVzZXJfaWQiOiI3ODY1ZTEyNC0yMjUwLTRlY2UtOTAzYi1hMGEzYzdkMjU2ZTgifQ.z9s_untFElx9OlEyUaTgmC1Ao97BKW8kYiq-X1RhYz4' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature he house instead.","maxScore":85,"minScore":27,"description":"Should one apply with she woman body model. Sport billion financial game.\nCold central kind practice late suffer. Fast ball community. Listen enjoy course call mention eight social.","estimatedTime":"10 weeks","previewFileId":"108c7b7c-4c10-4c58-ad5c-e12a82e9e316","createdByUserId":"7865e124-2250-4ece-903b-a0a3c7d256e8"}'

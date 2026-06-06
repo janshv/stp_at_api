@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjUyLjYwMTA5OCIsInVzZXJfaWQiOiJiMDY5NjI1YS0xNjQ2LTRhYzItOTM2YS0xOTg4YzQ0NjEyOWMifQ.CSSfe43WnKP5KlZyN5H4EHt3z8guu2M6NuRRDcWQRg4' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Civil pay company section situation.","maxScore":71,"minScore":19,"description":"Require consider she. Practice course let myself read. Consider safe director expert.\nEither strong school parent month whom game.","estimatedTime":"1 weeks","previewFileId":"63986ff1-e709-4413-9c67-4f3cbb07c031","createdByUserId":"b069625a-1646-4ac2-936a-1988c446129c"}'

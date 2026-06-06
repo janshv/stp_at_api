@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjU1LjI5MjA1OSIsInVzZXJfaWQiOiIxZWMwYTgwYy03ZDhkLTRkYTktYWE1NC00YjAxMTc0YmRjZGUifQ.T0QzqQFzlpqklxz0sgtf98rCEOS9TS4rn77mBzkXffY' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different issue century win.","maxScore":93,"minScore":4,"description":"Major involve road news. Environmental fine work student south speak.\nTraditional religious ever campaign little. Meet parent line street beautiful. Without once open discuss reflect raise reveal.","estimatedTime":"1 weeks","previewFileId":"461e60bd-8d4b-41c5-a158-4687cfd5d872","createdByUserId":"1ec0a80c-7d8d-4da9-aa54-4b01174bdcde"}'

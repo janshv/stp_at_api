@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjU1LjI5MjA1OSIsInVzZXJfaWQiOiIxZWMwYTgwYy03ZDhkLTRkYTktYWE1NC00YjAxMTc0YmRjZGUifQ.T0QzqQFzlpqklxz0sgtf98rCEOS9TS4rn77mBzkXffY' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture treat writer lay whom fly.","courseId":"6f1e1721-dabe-43d2-af24-0bc7adf105df","maxScore":90,"minScore":19,"orderIndex":96,"description":"Admit up account such. Computer trial occur site dream set rate catch. Sound become maintain manage large these read pull. Reduce shoulder likely.\nRed through minute drug.","estimatedTime":"1 weeks"}'

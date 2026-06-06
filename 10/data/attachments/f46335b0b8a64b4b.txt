@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDExOjE4OjUyLjI5MjU1MyIsInVzZXJfaWQiOiIwNTcyMTg1Yi0zMzk2LTQ5MzgtODFkNS1lZTFmMTNhNWE3OGQifQ.eesXF_1cI9HdvdO9KK_szwsI3-44_Wwp_9VS5GpKJkU' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same indeed mother security find democratic big.","maxScore":74,"minScore":20,"description":"Assume line later staff fund just. Sort grow case close. Moment simply identify break safe serious fall major.\nHowever possible expert my among science. Try find stock difficult.","estimatedTime":"9 weeks","previewFileId":"306cf97c-a973-4274-ac06-a6d056b80904","createdByUserId":"0572185b-3396-4938-81d5-ee1f13a5a78d"}'
