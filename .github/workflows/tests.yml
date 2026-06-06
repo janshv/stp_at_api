@@ -28,7 +28,7 @@ jobs:
 
       # 3. Шаг для клонирования репозитория с тестовым сервером в рабочую среду
       - name: Clone test server repository
-        run: git clone https://github.com/janshv/stp_at_api
+        run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
 
       # 4. Шаг для установки зависимостей для тестового сервера
       - name: Install test server dependencies
