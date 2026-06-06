@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMxLjU5NTczMiIsInVzZXJfaWQiOiI1Nzg1OTc0My0xZmMxLTQ5ZDMtYmYyNi1mZTgxNmE5YzZmMDkifQ.NFlZtAk4twmuX8cWBmi0f2VA59uX0yuj1YPnsCw4m6Y' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican region and build summer American ago.","maxScore":94,"minScore":11,"description":"Majority laugh hit institution increase those. Staff drug recent stay debate later easy.","estimatedTime":"9 weeks","previewFileId":"1cf3ffe7-efa6-4bbf-bac3-68117e54049b","createdByUserId":"57859743-1fc1-49d3-bf26-fe816a9c6f09"}'

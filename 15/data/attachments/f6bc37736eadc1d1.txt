@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMwLjg3NjU3NSIsInVzZXJfaWQiOiJjMDAwN2Q2MS0zZTRkLTRkZTUtOWQ0OS1kNGE3YWYxY2Y2ZmQifQ.sqYofPoweROQlsGX5tlsgVSnKnpHrSTqHlk2jiRNwZY' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book tend because buy indicate.","courseId":"1b08610f-598c-4855-abcb-577a1ff1ab89","maxScore":84,"minScore":30,"orderIndex":44,"description":"Executive simply choose store benefit list tonight.\nWill factor act collection. Kind happy according standard himself possible really. Budget interest option establish break goal toward.","estimatedTime":"8 weeks"}'

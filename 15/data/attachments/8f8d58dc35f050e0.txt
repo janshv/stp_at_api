@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bbeb9088-1e0f-4390-92b2-b8f1bfb7d10a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjI4LjkzODE4NSIsInVzZXJfaWQiOiIwNzUxMDJlNi0zZTM4LTQ5MjctYjQzMy0xOTNhMjhjNmRiNmIifQ.CjayA7ETNMS_Yl22vVeW5g6X_gyOgk6mg-jJMqhUORU' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land property lose approach discuss book budget.","maxScore":78,"minScore":4,"description":"Five Mrs arrive break radio fly.\nReflect continue decade draw myself able. Message many employee hospital source natural. Song talk yard land.","estimatedTime":"1 weeks"}'

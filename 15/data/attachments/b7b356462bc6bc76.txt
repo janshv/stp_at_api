@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=1b08610f-598c-4855-abcb-577a1ff1ab89
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=1b08610f-598c-4855-abcb-577a1ff1ab89
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 42f62d0f-50b1-493d-b3f9-e62ac2192a18
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Book tend because buy indicate.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 1b08610f-598c-4855-abcb-577a1ff1ab89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 44
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Executive simply choose store benefit list tonight.
+Will factor act collection. Kind happy according standard himself possible really. Budget interest option establish break goal toward.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks

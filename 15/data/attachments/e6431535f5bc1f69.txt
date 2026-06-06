@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjI5LjU5NTcwNiIsInVzZXJfaWQiOiI4ZjhkNTdlZi0zMmFjLTRiMmYtYWI2NS0yYWQyNWFhZjhhYjAifQ.UpMmYYPd_eekeZBUoS5DL7KKf2-MFHEi7FB-O4Ig_1s' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last election others important affect believe foot.","maxScore":98,"minScore":16,"description":"Question draw mind center meet room. Base actually situation. Wide stop enjoy present necessary notice finish.\nFinally serve fast. Education serve remember until general job.","estimatedTime":"4 weeks","previewFileId":"88589351-a835-49ee-a667-5eb22d25bd1b","createdByUserId":"8f8d57ef-32ac-4b2f-ab65-2ad25aaf8ab0"}'

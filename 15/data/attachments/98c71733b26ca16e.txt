@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMwLjU2Nzk5NiIsInVzZXJfaWQiOiI2NmFiMWE0NC03MWFhLTRjMGEtYjQ2MC0zMGM3NDFhYmE1ZDQifQ.zpMuP5I9PsnpC1Fcf7Mr33SfCH6XquK1-wbkCHutI_A' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule account executive strong light thing fire.","maxScore":90,"minScore":2,"description":"Blood compare character. House fight purpose which talk course.\nBefore tree their suddenly deep boy. Human firm page under increase hand. Later light responsibility process.","estimatedTime":"8 weeks","previewFileId":"b58d8b06-b6b1-4a98-bcf5-15fd15825eb8","createdByUserId":"66ab1a44-71aa-4c0a-b460-30c741aba5d4"}'

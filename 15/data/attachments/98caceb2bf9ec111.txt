@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/stp_at_api/stp_at_api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/courses?userId=a6f59797-3acb-4817-9a83-2ef7da4f5e39
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=a6f59797-3acb-4817-9a83-2ef7da4f5e39
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 03a58b65-d046-4f28-b3b7-7e27d9df9952
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Way table whatever short area American open.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Rule authority big for. Hour after despite community. Special traditional claim send property it.
+Outside pressure rate cause suddenly gun. Population wall have degree own court clear participant.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 2 weeks
+INFO     FILES_ASSERTIONS:files.py:53 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 97e0c1b5-2950-4172-9c94-9fb51106016b
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/9504a302-95ac-429a-9bc3-3b49dfabbbac.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to 9504a302-95ac-429a-9bc3-3b49dfabbbac.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to a6f59797-3acb-4817-9a83-2ef7da4f5e39
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to thomaslouis@example.org
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Lewis
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Candice
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to Jennifer
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

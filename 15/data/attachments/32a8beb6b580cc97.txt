@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/76876221-afc3-4a3a-bdf9-4a45a78d20d9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMyLjI0NzYyNSIsInVzZXJfaWQiOiJjOTk0ZjE4MS0yYjQ3LTRiZTYtODdhZS1iNDUwMjU3ODEzYzAifQ.VHMV1gB-YojU_cjHX-QWeTyHHuwNbw5BWrt8Da7J3sc' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm focus soon individual.","maxScore":67,"minScore":28,"orderIndex":78,"description":"Recently appear share rest hold mind glass will. Beat despite prevent. Month including serious state ground.\nWonder spend goal serious. For great win green. Pull image gas themselves.","estimatedTime":"4 weeks"}'

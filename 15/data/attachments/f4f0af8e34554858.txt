@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMwLjg3NjU3NSIsInVzZXJfaWQiOiJjMDAwN2Q2MS0zZTRkLTRkZTUtOWQ0OS1kNGE3YWYxY2Y2ZmQifQ.sqYofPoweROQlsGX5tlsgVSnKnpHrSTqHlk2jiRNwZY' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon set various serious.","maxScore":72,"minScore":2,"description":"Find bad computer week magazine minute. School sport parent total.\nBeyond long professional black look. State agency again hard leader successful speech.","estimatedTime":"4 weeks","previewFileId":"5f9bc01a-1fb3-4ab1-82f2-e76cc69f44bd","createdByUserId":"c0007d61-3e4d-4de5-9d49-d4a7af1cf6fd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMwLjU2Nzk5NiIsInVzZXJfaWQiOiI2NmFiMWE0NC03MWFhLTRjMGEtYjQ2MC0zMGM3NDFhYmE1ZDQifQ.zpMuP5I9PsnpC1Fcf7Mr33SfCH6XquK1-wbkCHutI_A' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Herself value bed evening officer.","courseId":"d8b54c8b-7d8f-4377-ac7a-554c41e70d7b","maxScore":88,"minScore":10,"orderIndex":52,"description":"Carry sister or yet. Local appear really our. Mention drop how leg amount hope.","estimatedTime":"7 weeks"}'

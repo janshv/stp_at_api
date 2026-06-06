@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjI4LjkzODE4NSIsInVzZXJfaWQiOiIwNzUxMDJlNi0zZTM4LTQ5MjctYjQzMy0xOTNhMjhjNmRiNmIifQ.CjayA7ETNMS_Yl22vVeW5g6X_gyOgk6mg-jJMqhUORU' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through green way white particularly so camera.","maxScore":72,"minScore":24,"description":"All theory measure test product none check speak. Statement seek growth let.\nPut seven but over. Safe century organization sure tough charge.","estimatedTime":"8 weeks","previewFileId":"f70b0cb5-39aa-4f2e-90ed-e047446b2e25","createdByUserId":"075102e6-3e38-4927-b433-193a28c6db6b"}'

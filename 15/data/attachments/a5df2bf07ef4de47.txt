@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDIwOjA3OjMyLjI0NzYyNSIsInVzZXJfaWQiOiJjOTk0ZjE4MS0yYjQ3LTRiZTYtODdhZS1iNDUwMjU3ODEzYzAifQ.VHMV1gB-YojU_cjHX-QWeTyHHuwNbw5BWrt8Da7J3sc' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major by level wife use.","courseId":"9f827a5d-526f-4739-af41-d7e19f2cdc25","maxScore":83,"minScore":23,"orderIndex":67,"description":"Field cost today choice short compare free. Yeah wait allow.\nPush sing camera. Future administration really possible lawyer.\nUntil like employee drive various.","estimatedTime":"4 weeks"}'
