@@ -1,5 +1,13 @@
-.gitignore
 
+# pycharm
+.idea
+
+# python
+.venv
+__pycache__
+
+# allure
+./allure-report
 ./allure-results
 ./z_stuff
 .env

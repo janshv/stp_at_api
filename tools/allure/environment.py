@@ -16,7 +16,3 @@ def create_allure_environment_file():
     # Открываем файл ./allure-results/environment.properties на чтение
     with open(settings.allure_results_dir.joinpath('environment.properties'), 'w+') as file:
         file.write(properties)  # Записываем переменные в файл
-
-    print(items)
-
-create_allure_environment_file()
