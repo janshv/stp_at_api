@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQzOjAyLjUwMTA0MyIsInVzZXJfaWQiOiJiMWVjMzliMi1jNzRjLTQxOTEtYmMwOC04MDI4NmQ2NWNkYzcifQ.3d59nojglSxIUB5SZVLhgvUoi-aH5goG_qtfAYmyh9Y' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual vote or leader bit.","maxScore":97,"minScore":19,"description":"Power bill experience son hot place set. While star at public never cell. Growth whose heavy concern seem.","estimatedTime":"3 weeks","previewFileId":"5553d935-226c-4804-bd1c-954877bb4384","createdByUserId":"b1ec39b2-c74c-4191-bc08-80286d65cdc7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQzOjA4LjI3MDg0NCIsInVzZXJfaWQiOiIxYWMyN2QyOC04OTU1LTRhNDUtOTFiOC0zYTlhY2Y5YWFiNGEifQ.zYWfia_s6un7vmL_6Jb25VZ0qrUXzwyDbTXprRFk54I' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do probably against note scene box space away.","maxScore":82,"minScore":5,"description":"Fight pull see mother firm course enjoy. Result think talk chance rock leave. Notice explain store free religious.\nSuch natural painting sure indeed. Effort exist for despite popular floor.","estimatedTime":"4 weeks","previewFileId":"37ce1242-7f25-4079-a15a-b1ad8de9ad3d","createdByUserId":"1ac27d28-8955-4a45-91b8-3a9acf9aab4a"}'

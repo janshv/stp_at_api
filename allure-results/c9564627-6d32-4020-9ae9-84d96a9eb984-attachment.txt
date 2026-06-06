@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA2VDE5OjQyOjQ1Ljg0OTg2NCIsInVzZXJfaWQiOiI2NzJkNjZjNC1lODQ3LTQxM2UtOGNmZC00ZmU0NmM0ZTYyYzAifQ.ZmRe5jRpN5IiiVj9xT0GJg9z7Z5Y681296N1UhO3Ssc' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box building race.","maxScore":89,"minScore":16,"description":"Long green detail team better them performance. Same eye nor send.\nMention risk serious ability kid rate second.\nFood concern mention final. Go whole certain system. Per travel interest.","estimatedTime":"8 weeks","previewFileId":"70ae164b-1e72-44c3-b175-4fb7b5674d91","createdByUserId":"672d66c4-e847-413e-8cfd-4fe46c4e62c0"}'
