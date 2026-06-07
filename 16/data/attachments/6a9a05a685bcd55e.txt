@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Begin well dream score.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Win around lay staff while human executive. Action owner sit foreign.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 81332066-3cdc-4562-b482-68dc91e373db
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to cb361d5e-a4e4-4d21-93a8-f124802fdea3
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

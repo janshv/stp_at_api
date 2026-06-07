@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA3VDA5OjIwOjAwLjkwMTIxOSIsInVzZXJfaWQiOiJjYjM2MWQ1ZS1hNGU0LTRkMjEtOTNhOC1mMTI0ODAyZmRlYTMifQ.uX_J00pbJG_uoZ36tHLq84nbOJrAyzwBSlCNd54bD-g' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin well dream score.","maxScore":71,"minScore":9,"description":"Win around lay staff while human executive. Action owner sit foreign.","estimatedTime":"3 weeks","previewFileId":"81332066-3cdc-4562-b482-68dc91e373db","createdByUserId":"cb361d5e-a4e4-4d21-93a8-f124802fdea3"}'

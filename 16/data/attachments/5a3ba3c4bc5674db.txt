@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA3VDA5OjIwOjAwLjM0NTIwNiIsInVzZXJfaWQiOiJhZGViYWNhZi1jMTI5LTQxZDAtOGEzNS0zZDllYWEwOWVhNTMifQ.szoNrOO4giiG7YefsFtX34mMAmTEsdZyNDeDLIGnQXc' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Single ahead expect public.","maxScore":82,"minScore":11,"description":"Pretty than compare pressure fact note. Word throw pattern mention operation draw.\nWindow still individual. Leg strategy small over contain.","estimatedTime":"8 weeks","previewFileId":"4c855371-d0d9-49c6-93c9-f69b40bd57bb","createdByUserId":"adebacaf-c129-41d0-8a35-3d9eaa09ea53"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA3VDA5OjIwOjAyLjA1MDQ5NiIsInVzZXJfaWQiOiI5YTljMGE0MC0zNzVjLTRhNTMtYTU1MC1iZmJkOTU5MWZjNjkifQ.rtPT6z-uJX1wedXQUq5Ng1k_RRl8whGkKfmaPvxXfYM' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice whatever feel special sense.","maxScore":63,"minScore":13,"description":"Recent edge note bed radio compare. She want red already.\nAnother discuss especially. Yourself nature your region.\nEvening training resource scene feel. Really get work us manage class available.","estimatedTime":"10 weeks","previewFileId":"de80c9ab-9cf1-4af9-9e73-080eac01489b","createdByUserId":"9a9c0a40-375c-4a53-a550-bfbd9591fc69"}'
